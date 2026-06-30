@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import certifi
 
-uri = "mongodb+srv://Deepak:d33p1ks7899@cluster0.gpgm7th.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = DB_URL_from _env
 client = MongoClient(uri,tls=True, tlsCAFile=certifi.where())
 
 try:
